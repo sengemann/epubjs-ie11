@@ -1,0 +1,23 @@
+{
+  "name": "epub-ie11",
+  "version": "1.0.0",
+  "description": "A test for EPubjs and IE11",
+  "scripts": {
+    "test": "echo test",
+    "clean": "rm -rf node_modules package-lock.json && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sengemann/epubjs-ie11.git"
+  },
+  "author": "Scott Engemann <engemasa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sengemann/epubjs-ie11/issues"
+  },
+  "homepage": "https://github.com/sengemann/epubjs-ie11#readme",
+  "dependencies": {
+    "epubjs": "0.3.83",
+    "jquery": "3.3.1"
+  }
+}
