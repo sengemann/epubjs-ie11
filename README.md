@@ -21,6 +21,11 @@ server {
     error_page  405     =200 $uri;
 }
 ```
+### Host
+
+```
+127.0.0.1   local.epub.com
+```
 
 - Run `npm install`
 - Start nginx `sudo nginx`
